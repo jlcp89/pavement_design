@@ -1,0 +1,26 @@
+{
+    "Traffic": {
+        "ESALs": 25348502,
+        "Trucks/Day": 1100,
+        "Traffic Growth Rate": 2.2,
+        "Design Life": 40,
+        "Directional Distribution": 100,
+        "Design Lane Distribution": 100
+    },
+    "Global": {
+        "Reliability": 95,
+        "Slabs Cracked": 5
+    },
+    "Subgrade": {
+        "CBR": 75
+    },
+    "Concrete": {
+        "FlexuralStrength": 650,
+        "ModulusOfElasticity": 4000000
+    },
+    "Structure": {
+        "LayerType": "Granular Base",
+        "ResilientModulus": 15000,
+        "LayerThickness": 11
+    }
+}
