@@ -24,6 +24,10 @@ def calcular_mrsg_subgrade(CBR):
     print(f"CBR ingresado: {CBR:.2f}%")
     MRSG = 1945 * (CBR ** 0.684)  # Relación ajustada empíricamente
     print(f"MRSG calculado: {MRSG:.2f} psi")
+    MRSG2 = 21.2 * (CBR ** 0.64)
+    print(f"MRSG 2 calculado: {MRSG2:.2f} psi")
+
+
     return round(MRSG, 2)
 
 def calcular_k_subestructura_psi_in(MRSG, resilient_modulus_base, espesor_base):
